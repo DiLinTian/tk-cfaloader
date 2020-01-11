@@ -1,0 +1,17 @@
+ani_task:
+  - Model
+  - Rigging
+  - Shading
+preshot_task:
+  - Animation
+  - CFX
+  - EFX
+  - Shading
+  - Crowds
+light_task:
+  - KeyLight
+  - Preshot
+cfx_task:
+  - Groom
+  - Animation
+

@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="res">
+    <file>sg_logo.png</file>
+    <file>load_menu_icon.png</file>
+    <file>search.png</file>
+    <file>asset_thumb_dark.png</file>
+    <file>icon_Sequence_dark.png</file>
+    <file>icon_Shot_dark.png</file>
+  </qresource>
+</RCC>

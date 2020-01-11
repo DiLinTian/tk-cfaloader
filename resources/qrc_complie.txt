@@ -1,0 +1,1 @@
+C:\Python27\Lib\site-packages\PySide\pyside-rcc.exe -o D:\cfa_pipeline\apps\tk-cfaloader-app\python\app\ui\resources_rc.py D:\cfa_pipeline\apps\tk-cfaloader-app\resources\resources.qrc
