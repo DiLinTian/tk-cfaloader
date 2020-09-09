@@ -8,10 +8,10 @@
 
 '''
 
-# import sgtk
-# from sgtk.platform.qt import QtCore, QtGui
-import PySide.QtGui as QtGui
-import PySide.QtCore as QtCore
+import sgtk
+from sgtk.platform.qt import QtCore, QtGui
+# import PySide.QtGui as QtGui
+# import PySide.QtCore as QtCore
 import sys,os
 
 class CfaLoaderShotViewItemModel(QtCore.QAbstractItemModel):

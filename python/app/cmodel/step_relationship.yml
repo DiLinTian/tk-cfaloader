@@ -7,11 +7,25 @@ preshot_task:
   - CFX
   - EFX
   - Shading
-  - Crowds
+  - Groom
 light_task:
-  - KeyLight
-  - Preshot
+  - Animation
+  - CFX
+  - EFX
+  - Groom
+  - Shading
 cfx_task:
   - Groom
   - Animation
+keylight_task:
+  - Preshot
+  - LightRig
+
+
+#light_task:
+#  - Animation
+#  - CFX
+#  - Preshot
+#  - Groom
+#  - Shading
 

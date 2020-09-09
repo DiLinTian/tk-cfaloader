@@ -6,5 +6,6 @@ CFX: CFX
 EFX: EFX
 KeyLight: KL
 Preshot: PRS
-Crowds: CROW
+#Crowds: CROW
 Groom: GRM
+LightRig: LGTP

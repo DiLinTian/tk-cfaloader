@@ -7,9 +7,9 @@
     
 
 '''
-# import sgtk
-# from sgtk.platform.qt import QtCore, QtGui
-from PySide import QtCore, QtGui
+import sgtk
+from sgtk.platform.qt import QtCore, QtGui
+# from PySide import QtCore, QtGui
 
 class StepFilterWidget(QtGui.QListWidget):
 

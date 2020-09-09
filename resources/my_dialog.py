@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'my_dialog.ui'
 #
-# Created: Fri Jan 10 14:04:05 2020
+# Created: Mon Jan 13 14:54:46 2020
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -107,10 +107,6 @@ class Ui_Form(object):
         self.icon_mode_tb.setObjectName("icon_mode_tb")
         self.horizontalLayout.addWidget(self.icon_mode_tb)
         self.asset_layout.addLayout(self.horizontalLayout)
-        self.asset_view = QtGui.QListWidget(self.layoutWidget1)
-        self.asset_view.setMinimumSize(QtCore.QSize(0, 0))
-        self.asset_view.setObjectName("asset_view")
-        self.asset_layout.addWidget(self.asset_view)
         self.gridLayout_2.addWidget(self.splitter, 0, 0, 1, 1)
         self.btn_layout = QtGui.QHBoxLayout()
         self.btn_layout.setObjectName("btn_layout")

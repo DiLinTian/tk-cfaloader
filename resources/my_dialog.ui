@@ -219,16 +219,6 @@
          </item>
         </layout>
        </item>
-       <item>
-        <widget class="QListWidget" name="asset_view">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </widget>
@@ -265,6 +255,8 @@
     </layout>
    </item>
   </layout>
+  <zorder>splitter</zorder>
+  <zorder>asset_view</zorder>
  </widget>
  <resources/>
  <connections/>

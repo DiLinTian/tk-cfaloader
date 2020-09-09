@@ -7,8 +7,8 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PySide import QtCore, QtGui
-# from tank.platform.qt import QtCore, QtGui
+# from PySide import QtCore, QtGui
+from tank.platform.qt import QtCore, QtGui
 class Ui_Dialog(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
@@ -83,17 +83,12 @@ class Ui_Dialog(object):
         self.horizontalLayout = QtGui.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.file_type_layout = QtGui.QHBoxLayout()
+        self.file_type_layout.setObjectName("file_type_layout")
         self.asset_icon = QtGui.QLabel(self.layoutWidget1)
         self.asset_icon.setText("")
+        self.asset_icon.setObjectName("asset_icon")
         self.file_type_layout.addWidget(self.asset_icon)
         self.horizontalLayout.addLayout(self.file_type_layout)
-        # self.abc_box = QtGui.QCheckBox(self.layoutWidget1)
-        # self.abc_box.setObjectName("abc_box")
-        # self.horizontalLayout_4.addWidget(self.abc_box)
-        # self.maya_box = QtGui.QCheckBox(self.layoutWidget1)
-        # self.maya_box.setObjectName("maya_box")
-        # self.horizontalLayout_4.addWidget(self.maya_box)
-        # self.horizontalLayout.addLayout(self.horizontalLayout_4)
         spacerItem3 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.horizontalLayout.addItem(spacerItem3)
         self.asset_search_line = QtGui.QLineEdit(self.layoutWidget1)
@@ -112,10 +107,6 @@ class Ui_Dialog(object):
         self.icon_mode_tb.setObjectName("icon_mode_tb")
         self.horizontalLayout.addWidget(self.icon_mode_tb)
         self.asset_layout.addLayout(self.horizontalLayout)
-        self.asset_view = QtGui.QListWidget(self.layoutWidget1)
-        self.asset_view.setMinimumSize(QtCore.QSize(0, 0))
-        self.asset_view.setObjectName("asset_view")
-        self.asset_layout.addWidget(self.asset_view)
         self.gridLayout_2.addWidget(self.splitter, 0, 0, 1, 1)
         self.btn_layout = QtGui.QHBoxLayout()
         self.btn_layout.setObjectName("btn_layout")
@@ -147,8 +138,6 @@ class Ui_Dialog(object):
             QtGui.QApplication.translate("Form", "select All", None, QtGui.QApplication.UnicodeUTF8))
         self.step_sel_non.setText(
             QtGui.QApplication.translate("Form", "select None", None, QtGui.QApplication.UnicodeUTF8))
-        # self.abc_box.setText(QtGui.QApplication.translate("Form", "Alembic", None, QtGui.QApplication.UnicodeUTF8))
-        # self.maya_box.setText(QtGui.QApplication.translate("Form", "Maya", None, QtGui.QApplication.UnicodeUTF8))
         self.list_mode_tb.setText(QtGui.QApplication.translate("Form", "list", None, QtGui.QApplication.UnicodeUTF8))
         self.icon_mode_tb.setText(QtGui.QApplication.translate("Form", "icon", None, QtGui.QApplication.UnicodeUTF8))
         self.load_all_btn.setText(

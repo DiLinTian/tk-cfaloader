@@ -1,0 +1,11 @@
+Alembic: Alembic Cache
+Maya: Maya Scene
+XGGeometry: MAYA XGGeometry
+Shader: Maya Shader Network
+XGShader: MAYA XGShader
+XGen: Maya XGen
+LightRig: MAYA LightRig
+SIMCRV: Maya SIMCRV
+Camera: MAYA Camera
+#AssemblyDef: MayaAssembly
+#AssemblyRef: MayaAssemblyReference
